@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banaani Games Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><img src="images/BG.png" style="width: 64px; color: yellow;"></i>Banaani Games</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/about.html" class="navbar__links">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/resume.html" class="navbar__links">Resume</a>
+          </li>
+          <li class="navbar__item">
+            <a href="/experiments.html" class="navbar__links">Experiments</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<!-- Hero Section -->
+<div class="main">
+    <div class="main__container">
+      <div class="resume__content">
+        <h1>I am <span class="multiText"></span></h1>
+        <h2>My name is Joonas Suuronen</h2>
+        <p>Want to hire me? Feel free to contact me or download my resume from the button below.</p>
+        <li class="resume__btn"><a href="data/Joonas's Resume.pdf" class="resumeButton"> View CV </a></li>
+        <li class="resume__btn"><a href="data/Joonas's Resume.pdf" class="resumeButton" download="Resume_Joonas_Suuronen.pdf"> Download CV </a></li>
+        <p>+358 400368833</p>
+        <p>jsuuronen9@gmail.com</p>
+      </div>
+      <div class="resume__img">
+        <img id="resume__img" src="images/SelfPortrait.jpg" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Animated description text -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var animatedTyping = new Typed(".multiText",{
+        strings: ["programmer", "software engineer", "game developer", "UI / UX expert"], 
+        loop : true,
+        typeSpeed : 80,
+        backSpeed : 40,
+        backDelay: 1500
+    })
+</script>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <!--<div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign__up">How it works</a> <a href="/">Testimonials</a>
+            <a href="/">Careers</a> <a href="/">Investments</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a> <a href="/">Support</a>
+            <a href="/">Destinations</a> <a href="/">Sponsorships</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a> <a href="/">Influencer</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="/">Instagram</a> <a href="/">Facebook</a>
+            <a href="/">Youtube</a> <a href="/">Twitter</a>
+          </div>
+        </div>
+      </div> -->
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo"><img src="images/BG.png" style="width: 48px; color: yellow;"></i>Banaani Games</a>
+          </div>
+          <p class="website__rights">© Banaani Games 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              class="social__icon--link"
+              href="https://github.com/Joonas98"
+              target="_blank"
+              aria-label="Github"
+            > 
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="//www.youtube.com/channel/UCcndNd5zo6XcLXbmMDvsVRg"
+              target="_blank"
+              aria-label="Youtube"
+            >
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a
+              class="social__icon--link"
+              href="https://www.linkedin.com/in/joonas-suuronen-8726ab255/"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
