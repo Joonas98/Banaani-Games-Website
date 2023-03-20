@@ -402,7 +402,7 @@
     font-size: 4rem;
     width: 150%;
     background-color: #ffea00;
-    background-image: linear-gradient(90deg, #ff9838 0%, #ff4c10 100%);
+    background-image: linear-gradient(90deg, #ffe418 15%, #ffee00 50%,#36e800 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
