@@ -348,15 +348,6 @@
     width: 80%;
   }
 
-  .resumeButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 25%;
-    margin: 0;
-  }
-
   .resume__btn {
     font-size: 2rem;
     background-image: linear-gradient(to top, #ffe100 0%, #c8ff00 100%);
