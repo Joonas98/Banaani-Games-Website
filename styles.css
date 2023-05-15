@@ -233,7 +233,7 @@
     background-color: #131313;
     z-index: 1;
     width: 100%;
-    max-width: 1500px;
+    max-width: 90vw; /* Originally 1500px, relative far better*/
     padding-right: 50px;
     padding-left: 50px;
   }
