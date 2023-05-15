@@ -341,7 +341,7 @@
   }
   
   .resume__content h2 {
-    font-size: 2rem;
+    font-size: 2em;
     margin-top: 8px;
     background-color: #ffea00;
     background-image: linear-gradient(to top, #66ff00 0%, #ffea00 50%, #ffea00 100%);
