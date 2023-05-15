@@ -48,6 +48,7 @@
     cursor: pointer;
     text-decoration: none;
     font-size: 2.6rem;
+    line-height: 35px;
   }
   
   .navbar__menu {
