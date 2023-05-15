@@ -229,7 +229,7 @@
     align-items: center;
     justify-self: center;
     margin: 0 auto;
-    height: 90vh; /* Used to be 90vh */
+    height: 75vh; /* Used to be 90vh */
     background-color: #131313;
     z-index: 1;
     width: 100%;
@@ -433,6 +433,7 @@
     z-index: 1;
     width: 100%;
     max-width: 1500px;
+    padding-top: auto;
     padding-right: 50px;
     padding-left: 50px;
     color: #fff;
@@ -534,7 +535,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
   }
   
   .services h1 {
