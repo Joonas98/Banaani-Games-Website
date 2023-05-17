@@ -621,7 +621,7 @@ html {
   border: none;
   outline: none;
   border-radius: 4px;
-  background: linear-gradient(to top, #4bef1a 0%, #fff01c 100%);
+  background-image: linear-gradient(to top, #51ff1c 0%, #fff025 100%);
   position: relative;
   top: 450px;
   left: 30px;
@@ -629,21 +629,8 @@ html {
 }
 
 .services__card button:hover {
-  background: linear-gradient(to top, #32c007 0%, #b5aa13 100%);
-  transition: 0.5s ease;
+  background-image: linear-gradient(to top, #30bd05 0%, #b6ab09 100%);
   cursor: pointer;
-}
-
-.services__card:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background-color: #3b3b3b;
-  transition: all 0.2s;
-  z-index: -1;
 }
 
 /* Transition card size */
