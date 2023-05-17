@@ -17,21 +17,28 @@
     />
   </head>
   <body>
-
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/" id="navbar__logo"><img src="images/BG.png" style="width: 64px; color: yellow;"></i>Banaani Games</a>
+        <a href="/" id="navbar__logo"
+          ><img src="images/BG.png" style="width: 64px; color: yellow" />Banaani
+          Games</a
+        >
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span> <span class="bar"></span>
           <span class="bar"></span>
         </div>
         <ul class="navbar__menu">
           <li class="navbar__item">
-            <a href="/" class="navbar__links" >Home</a>
+            <a href="/" class="navbar__links">Home</a>
           </li>
           <li class="navbar__item">
-            <a href="/resume.html" class="navbar__links" style="background-color: #141414;"><b>Resume</b></a>
+            <a
+              href="/resume.html"
+              class="navbar__links"
+              style="background-color: #141414"
+              ><b>Resume</b></a
+            >
           </li>
           <li class="navbar__item">
             <a href="/showcase.html" class="navbar__links">Showcase</a>
@@ -46,36 +53,60 @@
       </div>
     </nav>
 
-<!-- Hero Section -->
-<div class="main">
-    <div class="main__container"  style="min-height: 85vh;">
-      <div class="resume__content">
-        <h1>I am <span class="multiText"></span></h1>
-        <h2>My name is Joonas Suuronen</h2>
-        <p>Want to hire me? Feel free to contact me or check out my resume. You can also see my engineer's thesis, but it's only in Finnish.</p>
-        <li class="resume__btn"><a href="data/Joonas's Resume.pdf" target="_blank"> View CV </a></li>
-        <li class="resume__btn"><a href="data/Joonas's Resume.pdf" download="Resume_Joonas_Suuronen.pdf"> Download CV </a></li>
-        <li class="resume__btn"><a href="https://www.theseus.fi/handle/10024/781688" target="_blank"> Thesis </a></li>
-        <p>+358 400368833</p>
-        <p>jsuuronen9@gmail.com</p>
-      </div>
-      <div class="resume__img">
-        <img id="resume__img" src="images/JoonasCoffeeCropped.jpg" />
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container" style="min-height: 85vh">
+        <div class="resume__content">
+          <h1>I am <span class="multiText"></span></h1>
+          <h2>My name is Joonas Suuronen</h2>
+          <p>
+            Want to hire me? Feel free to contact me or check out my resume. You
+            can also see my engineer's thesis, but it's only in Finnish.
+          </p>
+          <li class="resume__btn">
+            <a href="data/Joonas's Resume.pdf" target="_blank"> View CV </a>
+          </li>
+          <li class="resume__btn">
+            <a
+              href="data/Joonas's Resume.pdf"
+              download="Resume_Joonas_Suuronen.pdf"
+            >
+              Download CV
+            </a>
+          </li>
+          <li class="resume__btn">
+            <a
+              href="https://www.theseus.fi/handle/10024/781688"
+              target="_blank"
+            >
+              Thesis
+            </a>
+          </li>
+          <p>+358 400368833</p>
+          <p>jsuuronen9@gmail.com</p>
+        </div>
+        <div class="resume__img">
+          <img id="resume__img" src="images/JoonasCoffeeCropped.jpg" />
+        </div>
       </div>
     </div>
-  </div>
 
-  <!-- Animated description text -->
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script>
-    var animatedTyping = new Typed(".multiText",{
-        strings: ["programmer", "software engineer", "game developer", "UI / UX expert"], 
-        loop : true,
-        typeSpeed : 80,
-        backSpeed : 40,
-        backDelay: 1500
-    })
-</script>
+    <!-- Animated description text -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var animatedTyping = new Typed(".multiText", {
+        strings: [
+          "programmer",
+          "software engineer",
+          "game developer",
+          "UI / UX expert",
+        ],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 40,
+        backDelay: 1500,
+      });
+    </script>
 
     <!-- Footer Section -->
     <div class="footer__container">
@@ -109,16 +140,23 @@
       <section class="social__media">
         <div class="social__media--wrap">
           <div class="footer__logo">
-            <a href="/" id="footer__logo"><img src="images/BG.png" style="width: 48px; color: yellow;"></i>Banaani Games</a>
+            <a href="/" id="footer__logo"
+              ><img
+                src="images/BG.png"
+                style="width: 48px; color: yellow"
+              />Banaani Games</a
+            >
           </div>
-          <p class="website__rights">© Banaani Games 2023. All rights reserved</p>
+          <p class="website__rights">
+            © Banaani Games 2023. All rights reserved
+          </p>
           <div class="social__icons">
             <a
               class="social__icon--link"
               href="https://github.com/Joonas98"
               target="_blank"
               aria-label="Github"
-            > 
+            >
               <i class="fab fa-github"></i>
             </a>
             <a
