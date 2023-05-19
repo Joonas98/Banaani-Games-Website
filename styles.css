@@ -143,6 +143,7 @@ html {
 
   #navbar__logo {
     padding-left: 25px;
+    padding-right: 45px;
   }
 
   .navbar__toggle .bar {
@@ -309,6 +310,7 @@ html {
 #main__img {
   height: 80%;
   width: 80%;
+  margin: 8px;
 }
 
 /* Resume content */
@@ -485,52 +487,70 @@ html {
 
 /* Mobile Responsive */
 @media screen and (max-width: 768px) {
-  .main__container {
+  .main__container,
+  .showcase__container {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     justify-self: center;
     width: 100%;
-    margin: 0 auto;
-    height: 90vh;
+    margin: auto;
+    height: auto;
   }
 
-  .main__content {
+  .main__content,
+  .showcase__content,
+  .resume__content {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: auto;
   }
 
-  .main__content h1 {
+  .main__content h1,
+  .showcase__content h1,
+  .resume__content h1,
+  .multiText {
     font-size: 2.5rem;
     margin-top: 2rem;
   }
 
-  .main__content h2 {
+  .main__content h2,
+  .showcase__content h2,
+  .resume__content h2 {
     font-size: 3rem;
   }
 
-  .main__content p {
+  .main__content p,
+  .showcase__content p,
+  .resume__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
 }
 
 @media screen and (max-width: 480px) {
-  .main__content h1 {
+  .main__content h1,
+  .showcase__content h1,
+  .resume__content h1,
+  .multiText {
     font-size: 2rem;
-    margin-top: 3rem;
+    margin-top: auto;
   }
 
-  .main__content h2 {
+  .main__content h2,
+  .showcase__content h2,
+  .resume__content h2 {
     font-size: 2rem;
   }
 
-  .main__content p {
+  .main__content p,
+  .showcase__content p,
+  .resume__content p {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
 
-  .main__btn {
+  .main__btn,
+  .resume__btn {
     padding: 12px 36px;
     margin: 2.5rem 0;
   }
@@ -646,22 +666,27 @@ html {
   }
 
   .services h1 {
-    font-size: 2rem;
-    margin-top: 12rem;
+    font-size: auto;
+    margin: auto;
   }
 }
 
 @media screen and (max-width: 480px) {
   .services {
-    height: 1400px;
+    height: auto;
   }
 
   .services h1 {
-    font-size: 1.2rem;
+    font-size: auto;
   }
 
   .services__card {
-    width: 300px;
+    width: auto;
+    font-size: auto;
+  }
+
+  .services__card button {
+    width: auto;
   }
 }
 
