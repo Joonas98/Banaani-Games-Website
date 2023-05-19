@@ -525,34 +525,55 @@ html {
     margin-top: 1rem;
     font-size: 1.5rem;
   }
+
+  .resume__content h1,
+  .multiText {
+    font-size: 0rem;
+  }
+
+  .resume__img {
+    margin: 10px 5px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   .main__content h1,
   .showcase__content h1,
-  .resume__content h1,
-  .multiText {
+  .resume__content h1 {
     font-size: 2rem;
-    margin-top: auto;
+    margin-top: 5px;
   }
 
   .main__content h2,
   .showcase__content h2,
   .resume__content h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main__content p,
-  .showcase__content p,
-  .resume__content p {
+  .showcase__content p {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
 
-  .main__btn,
-  .resume__btn {
+  .resume__content p {
+    margin: 5px;
+  }
+
+  .main__btn {
     padding: 12px 36px;
     margin: 2.5rem 0;
+  }
+
+  .resume__content h1,
+  .multiText {
+    font-size: 0rem;
+  }
+
+  .resume__btn {
+    margin: 5px;
+    padding: 12px;
+    font-size: 1.5rem;
   }
 }
 
@@ -677,16 +698,27 @@ html {
   }
 
   .services h1 {
-    font-size: auto;
+    font-size: 35px;
+    margin: auto 10px;
   }
 
   .services__card {
-    width: auto;
+    width: 80vw;
     font-size: auto;
+  }
+
+  .services__card h2 {
+    font-size: 25px;
+  }
+
+  .services__card p {
+    font-size: 15px;
+    margin-top: 15px;
   }
 
   .services__card button {
     width: auto;
+    padding: 8px;
   }
 }
 
