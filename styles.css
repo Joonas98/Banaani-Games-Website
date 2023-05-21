@@ -883,7 +883,8 @@ html {
 .samSlides,
 .bnbSlides,
 .grSlides,
-.snsSlides {
+.snsSlides,
+.nrSlides {
   display: none;
   width: auto;
   height: 100%;
@@ -892,7 +893,8 @@ html {
 .samSlides img,
 .bnbSlides img,
 .grSlides img,
-.snsSlides img {
+.snsSlides img,
+.nrSlides img {
   max-height: 40rem;
 }
 
