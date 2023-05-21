@@ -1,9 +1,10 @@
 // Base is from: https://www.w3schools.com/howto/howto_js_slideshow.asp
-let slideIndex = [1, 1, 1];
-let slideId = ["samSlides", "bnbSlides", "grSlides"];
+let slideIndex = [1, 1, 1, 1];
+let slideId = ["samSlides", "bnbSlides", "grSlides", "snsSlides"];
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
+showSlides(1, 3);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
@@ -28,28 +29,31 @@ function showSlides(n, no) {
   x[slideIndex[no] - 1].style.display = "block";
 
   // Handle dots
+  let dots;
   switch (no) {
     case 0:
-      let dots1 = document.getElementsByClassName("dot1");
-      for (i = 0; i < dots1.length; i++) {
-        dots1[i].className = dots1[i].className.replace(" active", "");
-      }
-      dots1[slideIndex[no] - 1].className += " active";
+      dots = document.getElementsByClassName("dot1");
       break;
 
     case 1:
-      let dots2 = document.getElementsByClassName("dot2");
-      for (i = 0; i < dots2.length; i++) {
-        dots2[i].className = dots2[i].className.replace(" active", "");
-      }
-      dots2[slideIndex[no] - 1].className += " active";
+      dots = document.getElementsByClassName("dot2");
       break;
 
     case 2:
-      let dots3 = document.getElementsByClassName("dot3");
-      for (i = 0; i < dots3.length; i++) {
-        dots3[i].className = dots3[i].className.replace(" active", "");
-      }
-      dots3[slideIndex[no] - 1].className += " active";
+      dots = document.getElementsByClassName("dot3");
+      break;
+
+    case 3:
+      dots = document.getElementsByClassName("dot4");
+      break;
+
+    case 4:
+      dots = document.getElementsByClassName("dot5");
+      break;
   }
+
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  dots[slideIndex[no] - 1].className += " active";
 }
