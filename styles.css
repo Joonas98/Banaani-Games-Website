@@ -884,7 +884,8 @@ html {
 .bnbSlides,
 .grSlides,
 .snsSlides,
-.nrSlides {
+.nrSlides,
+.cdSlides {
   display: none;
   width: auto;
   height: 100%;
@@ -894,7 +895,8 @@ html {
 .bnbSlides img,
 .grSlides img,
 .snsSlides img,
-.nrSlides img {
+.nrSlides img,
+.cdSlides img {
   max-height: 40rem;
 }
 
@@ -955,7 +957,8 @@ html {
 .dot2,
 .dot3,
 .dot4,
-.dot5 {
+.dot5,
+.dot6 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -972,7 +975,7 @@ html {
 .dot2:hover,
 .dot3:hover,
 .dot4:hover,
-.dot5:hover {
+.dot5:hover .dot6:hover {
   background-color: #d5d5d5;
 }
 
