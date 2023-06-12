@@ -135,9 +135,9 @@ html {
     background: #131313;
     top: 100%;
     opacity: 1;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
     z-index: 99;
-    height: 50vh;
+    height: 65vh;
     font-size: 1.6rem;
   }
 
@@ -190,8 +190,9 @@ html {
     cursor: pointer;
   }
 
+  /* Burger menu transition to X button */
   #mobile-menu.is-active .bar:nth-child(2) {
-    opacity: 0;
+    opacity: 0; /* Hide middle bar from burger menu */
   }
 
   #mobile-menu.is-active .bar:nth-child(1) {
@@ -559,6 +560,8 @@ html {
   .resume__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
+    word-wrap: break-word;
+    max-width: 70vw;
   }
 
   .resume__content h1,
@@ -898,6 +901,12 @@ html {
   max-width: 1000px;
   position: relative;
   margin: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .slideshow-container {
+    margin: 10px;
+  }
 }
 
 /* Hide the images by default */
