@@ -59,7 +59,7 @@
       <div class="main__container">
         <div class="main__content">
           <h1>SHOWCASE</h1>
-          <p>Updated 7/6/2023. Most projects are added.</p>
+          <p>Updated 12/6/2023. Most projects are added.</p>
           <p>
             Builds from most of the projects can be downloaded:
             <br />1. Download the build from Google Drive. <br />2. Extract the
@@ -77,6 +77,93 @@
         </div>
         <div class="main__img--container">
           <img id="main__img" src="images/BG.png" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Raspberry Pi and Pi-Hole section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1 style="font-size: 3.5rem">HOMEWIDE ADBLOCK SYSTEM</h1>
+          <h2>2023 - Rasperry Pi + Pi-Hole setup</h2>
+          <p>
+            I have 24/7 running Raspberry Pi 3 running some systems in my home.
+            In June of 2023, I setup system called
+            <a href="https://pi-hole.net/" target="_blank">Pi-Hole</a>. This
+            system handles queries sent from my smart devices. If the query
+            domain is included in my blocklists, it get's blocked (query returns
+            0.0.0.0 IP instead).
+          </p>
+          <p>
+            I use many blocklists, mostly from
+            <a href="https://firebog.net/" target="_blank">Firebog</a>. These
+            blocklists include huge amounts of domains that send ads, malware,
+            tracking or various other unwanted stuff. When the ad can't be
+            loaded, most websites just show nothing or empty space where the ad
+            would be.
+          </p>
+          <p>
+            Some big names such as Youtube and Twitch send the ads from same
+            domain as the content itself, but there are other solutions like
+            Chronium based extensions for those.
+          </p>
+        </div>
+
+        <div class="main__content">
+          <!-- Slideshow container -->
+          <div class="slideshow-container" style="margin-right: 15px">
+            <div class="raspSlides fade">
+              <div class="numbertext">1 / 6</div>
+              <img src="images/PiholeExplained.png" style="width: 100%" />
+              <div class="text">Network Diagram</div>
+            </div>
+
+            <div class="raspSlides fade">
+              <div class="numbertext">2 / 6</div>
+              <img src="images/demos/RaspberryPi1.png" style="width: 100%" />
+              <div class="text">Remote Connection to Raspberry</div>
+            </div>
+
+            <div class="raspSlides fade">
+              <div class="numbertext">3 / 6</div>
+              <img src="images/demos/RaspBerry3.png" style="width: 100%" />
+              <div class="text">Pi-Hole Dashboard</div>
+            </div>
+
+            <div class="raspSlides fade">
+              <div class="numbertext">4 / 6</div>
+              <img src="images/demos/RaspBerry5.png" style="width: 100%" />
+              <div class="text">Blocklists</div>
+            </div>
+
+            <div class="raspSlides fade">
+              <div class="numbertext">5 / 6</div>
+              <img src="images/demos/RaspSetup1.jpg" style="width: 100%" />
+              <div class="text">Setup</div>
+            </div>
+
+            <div class="raspSlides fade">
+              <div class="numbertext">6 / 6</div>
+              <img src="images/demos/RaspSetup2.jpg" style="width: 100%" />
+              <div class="text">Hardware</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1, 6)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 6)">&#10095;</a>
+          </div>
+          <br />
+
+          <!-- The dots/circles -->
+          <div style="text-align: center">
+            <span class="dot7" onclick="currentSlide(1, 6)"></span>
+            <span class="dot7" onclick="currentSlide(2, 6)"></span>
+            <span class="dot7" onclick="currentSlide(3, 6)"></span>
+            <span class="dot7" onclick="currentSlide(4, 6)"></span>
+            <span class="dot7" onclick="currentSlide(5, 6)"></span>
+            <span class="dot7" onclick="currentSlide(6, 6)"></span>
+          </div>
         </div>
       </div>
     </div>

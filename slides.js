@@ -1,5 +1,5 @@
 // Base is from: https://www.w3schools.com/howto/howto_js_slideshow.asp
-let slideIndex = [1, 1, 1, 1, 1, 1];
+let slideIndex = [1, 1, 1, 1, 1, 1, 1];
 let slideId = [
   "samSlides",
   "bnbSlides",
@@ -7,13 +7,19 @@ let slideId = [
   "snsSlides",
   "nrSlides",
   "cdSlides",
+  "raspSlides",
 ];
+
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 showSlides(1, 3);
 showSlides(1, 4);
 showSlides(1, 5);
+showSlides(1, 6);
+showSlides(1, 7);
+showSlides(1, 8);
+showSlides(1, 9);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);
@@ -62,6 +68,18 @@ function showSlides(n, no) {
 
     case 5:
       dots = document.getElementsByClassName("dot6");
+      break;
+
+    case 6:
+      dots = document.getElementsByClassName("dot7");
+      break;
+
+    case 7:
+      dots = document.getElementsByClassName("dot8");
+      break;
+
+    case 8:
+      dots = document.getElementsByClassName("dot9");
       break;
   }
 
