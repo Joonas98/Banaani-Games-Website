@@ -10,6 +10,24 @@ html {
   height: 100%;
 }
 
+a {
+  color: rgb(140, 226, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(20, 146, 188);
+  text-decoration: underline;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
 .navbar {
   background: #222222;
   height: 80px;
@@ -105,6 +123,10 @@ html {
 
 .navbar__links:hover:after {
   width: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
 }
 
 @media screen and (max-width: 960px) {
