@@ -46,7 +46,7 @@ a:active {
   height: 80px;
   z-index: 1;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1500px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 50px;
@@ -159,7 +159,7 @@ a:active {
     opacity: 1;
     transition: all 0.25s ease;
     z-index: 99;
-    height: 65vh;
+    height: 80vh;
     font-size: 1.6rem;
   }
 
@@ -645,6 +645,7 @@ a:active {
   justify-content: center;
   align-items: center;
   height: auto;
+  margin-top: 50px;
 }
 
 .services h1 {
@@ -663,7 +664,7 @@ a:active {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
+  margin-bottom: 1rem;
   font-size: 2.5rem;
 }
 
@@ -702,15 +703,24 @@ a:active {
     url("/images/CompanyTemp.svg");
 }
 
+.services__card:nth-child(3) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.6) 100%
+    ),
+    url("/images/ReactLogo.png");
+}
+
 .services__card h2 {
   position: absolute;
-  top: 350px;
+  top: 345px;
   left: 30px;
 }
 
 .services__card p {
   position: absolute;
-  top: 400px;
+  top: 380px;
   left: 30px;
 }
 
@@ -730,7 +740,7 @@ a:active {
 }
 
 .services__card button:hover {
-  background-image: linear-gradient(to top, #30bd05 0%, #b6ab09 100%);
+  background-image: linear-gradient(to top, #35cf06 0%, #cdc00a 100%);
   cursor: pointer;
 }
 
