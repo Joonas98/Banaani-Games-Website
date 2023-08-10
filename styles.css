@@ -237,7 +237,7 @@ a:active {
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: 75vh;
+  height: 75%;
   background-color: #131313;
   z-index: 1;
   width: 100%;
@@ -356,7 +356,14 @@ a:active {
   width: 100%;
 }
 
-.resume__content h1 {
+.referee__content {
+  color: #fff;
+  width: 100%;
+  margin: auto;
+}
+
+.resume__content h1,
+.referee__content h1 {
   font-size: 4rem;
   width: 150%;
   background-color: #ffea00;
@@ -390,8 +397,32 @@ a:active {
   -moz-text-fill-color: transparent;
 }
 
+.referee__content h2 {
+  font-size: 3rem;
+  margin-top: 5%;
+  color: #86cce7;
+}
+
+.referee__content h3 {
+  font-size: 2rem;
+  color: #aeaeae;
+  margin: auto;
+}
+
+.resume__content h3 {
+  font-size: 2rem;
+  margin-top: 8px;
+  color: #ffef97;
+}
+
 .resume__content p {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.referee__content p {
+  margin-top: 0.5rem;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -558,7 +589,8 @@ a:active {
 
   .main__content,
   .showcase__content,
-  .resume__content {
+  .resume__content,
+  .referee__content {
     text-align: center;
     margin-bottom: auto;
   }
@@ -566,14 +598,18 @@ a:active {
   .main__content h1,
   .showcase__content h1,
   .resume__content h1,
+  .referee__content h1,
   .multiText {
     font-size: 2.5rem;
     margin-top: 2rem;
+    max-width: 50vw;
   }
 
   .main__content h2,
   .showcase__content h2,
-  .resume__content h2 {
+  .resume__content h2,
+  .referee__content h2,
+  .referee__content h3 {
     font-size: 3rem;
   }
 
@@ -584,6 +620,13 @@ a:active {
     font-size: 1.5rem;
     word-wrap: break-word;
     max-width: 70vw;
+  }
+
+  .referee__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    max-width: 80vw;
   }
 
   .resume__content h1,
@@ -599,19 +642,24 @@ a:active {
 @media screen and (max-width: 480px) {
   .main__content h1,
   .showcase__content h1,
-  .resume__content h1 {
+  .resume__content h1,
+  .referee__content h1 {
     font-size: 2rem;
     margin-top: 5px;
+    max-width: 100vw;
   }
 
   .main__content h2,
   .showcase__content h2,
-  .resume__content h2 {
+  .resume__content h2,
+  .referee__content h2,
+  .referee__content h3 {
     font-size: 1.5rem;
   }
 
   .main__content p,
-  .showcase__content p {
+  .showcase__content p,
+  .referee__content p {
     margin-top: 2rem;
     font-size: 1.5rem;
   }
