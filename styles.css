@@ -540,6 +540,7 @@ a:active {
 }
 
 .showcase__content h1 {
+  margin-top: 5rem;
   font-size: 4rem;
   background-color: #ffea00;
   background-image: linear-gradient(
